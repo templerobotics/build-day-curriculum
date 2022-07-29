@@ -1,0 +1,7 @@
+{
+    "sketch": "week 1/button-interrupt/button-interrupt.ino",
+    "configuration": "cpu=atmega328old",
+    "board": "arduino:avr:nano",
+    "programmer": "arduino:avrispmkii",
+    "port": "/dev/tty.usbserial-1420"
+}
