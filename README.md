@@ -1,5 +1,6 @@
 # build-day-curriculum
-A curriculum for build days that can be followed throughout the school year. Each should be short (max an hour) and be reproducible by a newbie. 
+A curriculum for build days that can be followed throughout the school year. Each should be short (max an hour) and be reproducible by a newbie.
+[Robot kit](https://www.amazon.com/KEYESTUDIO-Bluetooth-Controller-Ultrasonic-Programming/dp/B08276N3D9/ref=asc_df_B08276N3D9/?tag=hyprod-20&linkCode=df0&hvadid=507731305156&hvpos=&hvnetw=g&hvrand=17314281805372487668&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9052386&hvtargid=pla-1045715635134&psc=1)
 
 ## Materials List
 |Item       |Quantity|Weeks Used|
