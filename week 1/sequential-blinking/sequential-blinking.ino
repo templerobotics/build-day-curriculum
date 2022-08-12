@@ -1,4 +1,9 @@
-const int LEDS[3] = {4, 8, 10};		// The LED pins being used in sequential order
+/**
+ * @brief Blink the LEDs sequentially from left to right. The LED will
+ * be on for 500 ms then turn off as the next one turns on.
+*/
+
+const int LEDS[3] = {8, 9, 10};		// The LED pins being used in sequential order (left to right)
 const int BUTTON = 2;				// The button pin
 
 // the setup function runs once when you press reset or power the board
@@ -12,7 +17,8 @@ void setup() {
 
 // The loop function runs over and over again forever
 void loop() {
-  for (int i = 0; i < 3; i++) {
+	// Loop through the LED array, turning one on at a time
+	for (int i = 0; i < 3; i++) {
 		digitalWrite(LEDS[i], HIGH);	// Turn on the LED
 		delay(500);						// Wait for a 500 ms
 		digitalWrite(LEDS[i], LOW);		// Turn off the LED
