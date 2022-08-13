@@ -7,6 +7,14 @@ A curriculum for build days that can be followed throughout the school year. Eac
 
 For setting up one's environment and software, go to [this folder](./setup/README.md)
 
+## Week 1
+
+Follow the README located [here](./week%201/README.md)
+
+## Week 2
+
+Follow the README located [here](./week%202/README.md)
+
 ## Materials List
 
 |Item       |Quantity|Weeks Used|

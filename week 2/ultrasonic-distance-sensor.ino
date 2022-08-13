@@ -1,9 +1,10 @@
 /**
- * @brief 
+ * @brief Use the ultrasonic distance sensor to detect obstacle distance
 */
 
-const int ECHO = 2;
-const int TRIG = 3;
+const int ECHO = A4;
+const int TRIG = A5;
+const double SPEED_OF_SOUND = 0.034; // The speed of sound in cm/us = 340 m/s * 100 cm/m * 0.000001 s/us
 
 // defines variables
 long duration; // variable for the duration of sound wave travel
@@ -34,5 +35,5 @@ double getDistance() {
 	// Reads the echoPin, returns the sound wave travel time in microseconds
 	duration = pulseIn(ECHO, HIGH);
 	// Calculating the distance
-	return duration * 0.034 / 2; // Speed of sound wave divided by 2 (go and back)
+	return duration * SPEED_OF_SOUND / 2; // Speed of sound wave divided by 2 (there and back)
 }

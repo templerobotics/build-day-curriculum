@@ -1,7 +1,6 @@
 {
-    "sketch": "week 1/sequential-blinking.ino",
-    "configuration": "cpu=atmega328old",
-    "board": "arduino:avr:nano",
+    "sketch": "week 2/ultrasonic-distance-sensor.ino",
+    "board": "arduino:avr:uno",
     "programmer": "arduino:avrispmkii",
-    "port": "/dev/tty.usbserial-1420"
+    "port": "/dev/tty.usbmodem14201"
 }
