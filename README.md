@@ -3,6 +3,15 @@
 A curriculum for build days that can be followed throughout the school year. Each should be short (max an hour) and be reproducible by a newbie.
 [Robot kit](https://www.amazon.com/KEYESTUDIO-Bluetooth-Controller-Ultrasonic-Programming/dp/B08276N3D9/ref=asc_df_B08276N3D9/?tag=hyprod-20&linkCode=df0&hvadid=507731305156&hvpos=&hvnetw=g&hvrand=17314281805372487668&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9052386&hvtargid=pla-1045715635134&psc=1)
 
+## Trouble Shooting
+
+- If you are having uploading troubles, my main issue was that the HAT was affecting the upload (possibly because PINS 0 and 1 are being used). The solution is to remove the HAT, upload your code, then put the HAT back on.
+- If a library is not found, you need to add it to the C/C++ path by Rebuilding the IntelliSense Configuration
+  - Put the include statement (Ex: `#include <Servo.h>`) at the top of the file
+  - Press `ctrl+shift+P`
+  - Type `Arduino: Rebuild IntelliSense Configuration`
+  - The library should now be included in the C/C++ path. This can be checked in [this file](./.vscode/c_cpp_properties.json) under `includePath`
+
 ## Software Setup
 
 For setting up one's environment and software, go to [this folder](./setup/README.md)
@@ -14,6 +23,10 @@ Follow the README located [here](./week%201/README.md)
 ## Week 2
 
 Follow the README located [here](./week%202/README.md)
+
+## Week 3
+
+Follow the README located [here](./week%203/README.md)
 
 ## Materials List
 

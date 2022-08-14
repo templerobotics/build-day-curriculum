@@ -1,4 +1,4 @@
-# Week 1: LEDs
+# Week 2: Ultrasonic Distance Sensors
 
 This week is about the ultrasonic distance sensor that we will be using on the robot.
 

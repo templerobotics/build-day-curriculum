@@ -1,3 +1,5 @@
+#include <Servo.h>
+
 /**
  * @brief Use the ultrasonic distance sensor to detect obstacle distance
 */
