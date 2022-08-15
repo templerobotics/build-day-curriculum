@@ -9,4 +9,4 @@ This week is about the servo that we will be using on the robot.
 
 ## Materials
 
-Only the ultrasonic distance sensor is needed for this week
+Only the servo is needed for this week

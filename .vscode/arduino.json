@@ -1,5 +1,5 @@
 {
-    "sketch": "week 2/ultrasonic-distance-sensor.ino",
+    "sketch": "week 4/motor-controller.ino",
     "board": "arduino:avr:uno",
     "programmer": "arduino:avrispmkii",
     "port": "/dev/tty.usbmodem14201"

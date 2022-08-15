@@ -11,6 +11,7 @@ A curriculum for build days that can be followed throughout the school year. Eac
   - Press `ctrl+shift+P`
   - Type `Arduino: Rebuild IntelliSense Configuration`
   - The library should now be included in the C/C++ path. This can be checked in [this file](./.vscode/c_cpp_properties.json) under `includePath`
+- If the upload is working correctly but doesnt seem to be working, check that the correct sketch file is selected
 
 ## Software Setup
 

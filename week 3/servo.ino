@@ -13,7 +13,6 @@ volatile int angle = 0;		// The angle which will be continuously changing
 
 void setup() {
 	servo.attach(SERVO_PIN);
-	servo.write(angle);
 
 	// For calibrating. In this 5 second interval, place the distance sensor facing straight ahead
 	centerServo();
