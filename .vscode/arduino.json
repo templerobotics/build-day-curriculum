@@ -1,5 +1,5 @@
 {
-    "sketch": "week 4/motor-controller.ino",
+    "sketch": "week x/bluetooth.ino",
     "board": "arduino:avr:uno",
     "programmer": "arduino:avrispmkii",
     "port": "/dev/tty.usbmodem14201"
