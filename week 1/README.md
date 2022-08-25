@@ -1,6 +1,6 @@
 # Week 1: LEDs
 
-This week will focus on buttons and LEDs. Everyone should get into groups of two; one for programming and another for hardware. This is so they can help each other out.
+This week will focus on buttons and LEDs
 
 - [Sequential Blinking](./sequential-blinking.ino)
   - Instructions: Create a program that blinks 3 LEDs sequentially at 500 ms intervals. There should always be one LED on during this loop. Temporarily stop the loop when the button is being pressed. There is no need for debouncing, but a pull up resistor (10 kOhm) on the button should help with noise. Start up the loop again when the button is released.
