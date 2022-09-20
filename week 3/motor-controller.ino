@@ -29,7 +29,7 @@ void setup() {
 
 	// Set the speed of the motors
 	analogWrite(ENABLE_A, SPEED);
-    analogWrite(ENABLE_B, SPEED);
+	analogWrite(ENABLE_B, SPEED);
 }
 
 void loop() {

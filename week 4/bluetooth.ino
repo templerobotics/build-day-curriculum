@@ -68,8 +68,10 @@ void stop(bool debug = false){
 
 void getBTData() {
 	if(Serial.available()) {
-		switch(Serial.read()) {
-			case 'f': mov_mode = FORWARD;  break;
+		int bt_data = Serial.read();
+		Serial.println(bt_data);
+		switch(bt_data) {
+			case 102: mov_mode = FORWARD;  break;
 			case 'b': mov_mode = BACK;     break;
 			case 'l': mov_mode = LEFT;     break;
 			case 'r': mov_mode = RIGHT;    break;
@@ -81,11 +83,11 @@ void getBTData() {
 
 void bluetooth_mode() {
 	switch(mov_mode){
-		case FORWARD: forward(true);  break;
-		case BACK:    back(true);     break;
-		case LEFT:    left(true);     break;
-		case RIGHT:   right(true);    break;
-		case STOP:    stop(true);     break;
+		case FORWARD: forward();  break;
+		case BACK:    back();     break;
+		case LEFT:    left();     break;
+		case RIGHT:   right();    break;
+		case STOP:    stop();     break;
 		default: break;
 	}
 }
@@ -99,6 +101,7 @@ void setup() {
 	pinMode(IN4, OUTPUT);
 	pinMode(ENA, OUTPUT);
 	pinMode(ENB, OUTPUT);
+	Serial.println("Program Starting");
 }
 
 void loop() {

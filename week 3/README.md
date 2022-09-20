@@ -1,12 +1,16 @@
-# Week 3: Servos
+# Week 3: Motors
 
-This week is about the servo that we will be using on the robot.
+This week is about how to use the motor controller on the robot with 4 different motors.
 
-- [Servo](./servo.ino)
-  - Instructions: Create a program that pans the servo from left to right continuously. At the beginning of the program, the servo should center itself for 5 seconds so the ultrasonic distance sensor can be calibrated at the center of the rotation path.
-  - Helpful links
-    - [Controlling servos 101](https://docs.arduino.cc/learn/electronics/servo-motors)
+- [Motor Controller](./motor-controller.ino)
+  - Instructions: Use the L298N motor controller on the robot to drive it forwards, backwards, turn left, then turn right. Do each action for 1 second each and repeat once finished. Keep the speed at 200 on all movement.
+    - **Warning**: The robot seems to stop working when going over 200 or so for the motor controller speed
 
-## Materials
+## Motor Controller Directions
 
-Only the servo is needed for this week
+|Direction|Pins|
+|---------|----|
+|Left side forward|9 HIGH & 11 LOW|
+|Left side backward|9 LOW & 11 HIGH|
+|Right side forward|7 LOW & 8 HIGH|
+|Right side backward|7 HIGH & 8 LOW|
