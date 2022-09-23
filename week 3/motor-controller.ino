@@ -45,7 +45,7 @@ void loop() {
 }
 
 /** @brief Move the robot forwards */
-void forwards() {
+void right() {
 	digitalWrite(RIGHT_1, HIGH);
 	digitalWrite(RIGHT_2, LOW);
 	digitalWrite(LEFT_1, HIGH);
@@ -53,7 +53,7 @@ void forwards() {
 }
 
 /** @brief Move the robot backwards */
-void backwards() {
+void left() {
 	digitalWrite(RIGHT_1, LOW);
 	digitalWrite(RIGHT_2, HIGH);
 	digitalWrite(LEFT_1, LOW);
@@ -61,7 +61,7 @@ void backwards() {
 }
 
 /** @brief Turn the robot to the left */
-void left() {
+void backwards() {
 	digitalWrite(RIGHT_1, HIGH);
 	digitalWrite(RIGHT_2, LOW);
 	digitalWrite(LEFT_1, LOW);
@@ -69,7 +69,7 @@ void left() {
 }
 
 /** @brief Turn the robot to the right */
-void right() {
+void forwards() {
 	digitalWrite(RIGHT_1, LOW);
 	digitalWrite(RIGHT_2, HIGH);
 	digitalWrite(LEFT_1, HIGH);
